@@ -3258,7 +3258,7 @@ a {
   .social ul li {
     display: block;
     margin: 5px;
-    background: rgba(0, 0, 0, 0.36);
+    background:linear-gradient(180deg, #ade9ec, #ffb5e5);
     width: 300px;
     text-align: right;
     padding: 10px;
@@ -3277,12 +3277,15 @@ a {
     -ms-transform: translate(110px, 0);
     -o-transform: translate(110px, 0);
     transform: translate(110px, 0);
-    background: rgba(255, 255, 255, 0.4);
+    background:  rgb(198, 239, 255);
   }
   .social ul li:hover a {
     color: #000;
+    text-decoration: none;
+    position: relative;
+    right: 30px;
   }
-  .social ul li:hover i {
+  /* .social ul li:hover i {
     color: #fff;
     background: red;
     -webkit-transform: rotate(360deg);
@@ -3295,7 +3298,7 @@ a {
     -ms-transition: all 1s;
     -o-transition: all 1s;
     transition: all 1s;
-  }
+  } */
   .social ul li i {
     margin-left: 10px;
     color: #000;
