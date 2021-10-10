@@ -6,7 +6,6 @@ body
     font-size: 14px;
     line-height: 26px;
     color: #122638;
-    margin: 0px;
     overflow-x: hidden;
 }
 
@@ -194,10 +193,12 @@ Header Area CSS
   z-index: 9;
   -webkit-box-shadow: 0 2px 28px 0 rgba(0, 0, 0, 0.06);
           box-shadow: 0 2px 28px 0 rgba(0, 0, 0, 0.06);
-  background: rgb(198, 239, 255); 
+  background: rgb(198, 239, 255);
   -webkit-animation: .5s ease-in-out 0s normal none 1 running fadeInDown;
           animation: .5s ease-in-out 0s normal none 1 running fadeInDown;
 }
+
+
 .navbar-brand>h1{
     display: block;
     max-width: 300px;
@@ -1227,6 +1228,7 @@ html body .owl-carousel {
 .sign_box_img img{
     width: 100px;
     height: 100px;
+    border-radius: 50px;
 }
 
 #zodiac_Sign.rashi_wrapper .rashi_sign_box  h4 {
@@ -1242,7 +1244,7 @@ html body .owl-carousel {
 
 #website_visitors.astrologers-work {
     padding: 80px 0;
-    background-image: url(../image/astrologers-work1.jpg);
+    background-image: url(../image/2566336-bigthumbnail.jpg);
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
@@ -1250,7 +1252,7 @@ html body .owl-carousel {
     z-index: 0;
 }
 #website_visitors.astrologers-work:before {
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(112, 4, 85, 0.5);
     content: "";
     height: 100%;
     left: 0;
@@ -1877,7 +1879,7 @@ breadcrumb CSS
 .main_breadcrumb {
 	position: relative;
 	background-color: #ff7e00;
-	background-image: url(../image/astrologers-work1.jpg);
+	background-image: url(../image/2566336-bigthumbnail.jpg);
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -1954,8 +1956,8 @@ breadcrumb CSS
 */
 .about_page #about_us.about_section {
     /* padding: 0px 0 50px; */
-    background: linear-gradient(to right, rgb(203, 228, 249), rgb(205, 245, 246), rgb(239, 249, 218), rgb(249, 235, 223), rgb(249, 216, 214), rgb(214, 205, 234));
-    margin-top: 0px;
+    background: #ffffff;
+    margin-top: 0%;
 }
 
 
@@ -3095,6 +3097,7 @@ em.required
     letter-spacing: 0.5px;
     text-transform: capitalize;
     color: #333333;
+
 }
 
 .contact-box-wrap .top-header-social {
